@@ -13,6 +13,6 @@
 10- git checkout master (ir a rama principal)
 11- git merge rama_nueva
 12- git branch -d rama_nueva
-13- git push
-14- git commit -am
+13- git push (subir a repositorio remoto)
+14- git commit -am "agregado" (mezcla add con commit)
 
