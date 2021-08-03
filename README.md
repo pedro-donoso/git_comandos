@@ -1,5 +1,7 @@
 # Comandos útiles de Git
 
+![Comandos GIT](https://th.bing.com/th/id/R.135f0e7cad3b6837f092205712792738?rik=mw7r1CD1r3LivQ&pid=ImgRaw&r=0)
+
 #### *1. git init*
 ---
 
