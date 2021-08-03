@@ -2,50 +2,53 @@
 
 ![Comandos GIT](https://th.bing.com/th/id/R.135f0e7cad3b6837f092205712792738?rik=mw7r1CD1r3LivQ&pid=ImgRaw&r=0)
 
-#### *1. git init*
+
+#### *1. Iniciar GIT:*
+    git init*
 ---
 
-#### *2. git add*
+#### *2. Agregar archivos:*
+    git add*
 ---
 
-#### *3. git reset*
-    - borrar add
+#### *3. Borrar add:*
+    git reset*
 ---
-#### *4. git commit -m "Primer commit"*
+#### *4. Agregar commit:*
+    git commit -m "Primer commit"*
 ---
-#### *5. git checkout --*
+#### *5. Borrar commit:*
+    git checkout --*
+---
+#### *6. Ver listado de commits:*
+    git log*
+---
+#### *7. Renombrar último commit:*
+    git commit --amend*
 
-    borrar commit
 ---
-#### *6. git log*
+#### *8. Crea una rama nueva:*
+    git checkout -b rama_nueva
 
-    ver listado de commits
+   
 ---
-#### *7. git commit --amend*
+#### *9. Ver rama actual:*
+    git branch
 
-    renombrar último commit
 ---
-#### *8. git checkout -b rama_nueva*
-
-    crea una rama nueva
+#### *10. Ir a la rama principal:*
+    git checkout master*
+    
 ---
-#### *9. git branch*
-
-    ver rama actual
+#### *11. Traer rama:*
+    git merge rama_nueva*
 ---
-#### *10. git checkout master*
-
-    ir a la rama principal
+#### *12. Eliminar una rama:*
+    git branch -d rama_nueva*
 ---
-#### *11. git merge rama_nueva*
+#### *13. Subir a repositorio remoto:*
+    git push*
 ---
-#### *12. git branch -d rama_nueva*
----
-#### *13. git push*
-
-    subir a repositorio remoto
----
-#### *14. git commit -am "agregado"*
-
-    mezcla add con commit
+#### *14. Mezcla de add con commit:*
+    git commit -am "agregado"*
 ---
