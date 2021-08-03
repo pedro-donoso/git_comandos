@@ -7,6 +7,7 @@
 5- git checkout -- . (borrar commit)
 6- git log (listado commits)
 7- git commit --amend (renombrar commit)
-8- git checkout -b rama_heroes
+8- git checkout -b rama_nueva (crear nueva rama)
+9- git branch (ver rama actual)
 
 -->
