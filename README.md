@@ -5,8 +5,7 @@
 #### 2. git add
 
 #### 3. git reset
-
-    borrar add
+    - borrar add
 
 #### 4. git commit -m "Primer commit"
 
