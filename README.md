@@ -14,4 +14,5 @@
 11- git merge rama_nueva
 12- git branch -d rama_nueva
 13- git push
+14- git commit -am
 
