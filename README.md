@@ -1,7 +1,7 @@
 # Comandos útiles de Git
 
 
-1- git init
+## 1- git init
 2- git add .
 3- git reset . (borrar add)
 4- git commit -m "Primer commit"
