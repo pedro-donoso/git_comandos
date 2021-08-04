@@ -4,27 +4,27 @@
 
 
 #### *1. Iniciar GIT:*
-    git init*
+    git init
 ---
 
 #### *2. Agregar archivos:*
-    git add*
+    git add
 ---
 
 #### *3. Borrar add:*
-    git reset*
+    git reset
 ---
 #### *4. Agregar commit:*
-    git commit -m "Primer commit"*
+    git commit -m "Primer commit"
 ---
 #### *5. Borrar commit:*
-    git checkout --*
+    git checkout --
 ---
 #### *6. Ver listado de commits:*
-    git log*
+    git log
 ---
 #### *7. Renombrar último commit:*
-    git commit --amend*
+    git commit --amend
 
 ---
 #### *8. Crea una rama nueva:*
@@ -37,18 +37,18 @@
 
 ---
 #### *10. Ir a la rama principal:*
-    git checkout master*
+    git checkout master
     
 ---
 #### *11. Traer rama:*
-    git merge rama_nueva*
+    git merge rama_nueva
 ---
 #### *12. Eliminar una rama:*
-    git branch -d rama_nueva*
+    git branch -d rama_nueva
 ---
 #### *13. Subir a repositorio remoto:*
-    git push*
+    git push
 ---
 #### *14. Mezcla de add con commit:*
-    git commit -am "agregado"*
+    git commit -am "agregado"
 ---
