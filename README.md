@@ -3,44 +3,44 @@
 ![Comandos GIT](https://th.bing.com/th/id/R.135f0e7cad3b6837f092205712792738?rik=mw7r1CD1r3LivQ&pid=ImgRaw&r=0)
 
 
-#### *1. Iniciar GIT:*
+#### 1. Iniciar GIT:
     git init
 
-#### *2. Agregar archivos:*
+#### 2. Agregar archivos:
     git add
 
-#### *3. Borrar add:*
+#### 3. Borrar add:
     git reset
 
-#### *4. Agregar commit:*
+#### 4. Agregar commit:
     git commit -m "Primer commit"
 
-#### *5. Borrar commit:*
+#### 5. Borrar commit:
     git checkout --
 
-#### *6. Ver listado de commits:*
+#### 6. Ver listado de commits:
     git log
 
-#### *7. Renombrar último commit:*
+#### 7. Renombrar último commit:
     git commit --amend
 
-#### *8. Crea una rama nueva:*
+#### 8. Crea una rama nueva:
     git checkout -b rama_nueva
 
-#### *9. Ver rama actual:*
+#### 9. Ver rama actual:
     git branch
 
-#### *10. Ir a la rama principal:*
+#### 10. Ir a la rama principal:
     git checkout master
     
-#### *11. Traer rama:*
+#### 11. Traer rama:
     git merge rama_nueva
 
-#### *12. Eliminar una rama:*
+#### 12. Eliminar una rama:
     git branch -d rama_nueva
 
-#### *13. Subir a repositorio remoto:*
+#### 13. Subir a repositorio remoto:
     git push
 
-#### *14. Mezcla de add con commit:*
+#### 14. Mezcla de add con commit:
     git commit -am "agregado"
