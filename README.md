@@ -67,6 +67,31 @@ git reset
 git log
 ```
 
+#### 10. Revisar todos los commits gráficamente:
+
+```
+git log graph
+```
+#### 11. Revisar cada commit en una línea:
+
+```
+git log --oneline
+```
+
+#### 12. Decorar commits:
+
+```
+git log --graph --decorate --all --oneline
+```
+
+#### 13. Crear alias, entre comillas agregar decoración
+
+```
+git config --global alias.nombrealias "log --graph --decorate --all --oneline"
+```
+
+
+
 
 #### 3. Borrar add:
     git reset
