@@ -10,7 +10,8 @@ git init
 
 #### 2. Establecer nombre de rama inicial y cambiar Nombre a rama principal del proyecto:
 
-```git config --global init.defaultBranch main
+```
+git config --global init.defaultBranch main
 ```
 
 ```
