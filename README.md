@@ -4,11 +4,15 @@
 
 #### 1. Inicializar control de versiones GIT (en el directorio dende se encuentra el proyecto):
 
-```git init```
+```
+git init
+```
 
 #### 2. Agregar todos los archivos:
     
-```git add .```
+```
+git add .
+```
 
 
 #### 3. Borrar add:
