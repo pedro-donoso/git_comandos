@@ -3,13 +3,14 @@
 ![Comandos GIT](https://th.bing.com/th/id/R.135f0e7cad3b6837f092205712792738?rik=mw7r1CD1r3LivQ&pid=ImgRaw&r=0)
 
 
-#### 1. Inicializar control de versiones GIT:
+#### 1. Inicializar control de versiones GIT (en el directorio dende se encuentra el proyecto):
    ```bash
 git init
 ```
-
-#### 2. Agregar archivos:
-    git add
+#### 2. Agregar todos los archivos:
+       ```bash
+git add .
+```
 
 #### 3. Borrar add:
     git reset
