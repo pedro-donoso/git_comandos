@@ -138,8 +138,39 @@ git log
 
 #### 19. Resetar commits:
 
+RESET FUNCIONA PARA COMMITS ANTES O DESPÚES DE LA CABECERA (HEAD)
 ```
 git reset 3e69287
+```
+
+#### 20. Recuperar commits borrados
+
+MUESTRA HISTORIAL COMPLETO DE COMMITS
+
+```
+git reflog
+```
+
+GIT RESET (HASH) PARA POSICIONAR CABECERA (HEAD)
+
+#### 21. Etiquetar commit:
+
+agregar nombre al commit puntual
+
+```
+git tag nombretag
+```
+
+#### 22. Mover cabecera (HEAD) entre Tags:
+
+```
+git checkout tags/nombretag
+```
+
+#### 23. Mover cabecera (HEAD) a la ubicación del main:
+
+```
+git checkout main
 ```
 
 
