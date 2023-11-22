@@ -173,6 +173,40 @@ git checkout tags/nombretag
 git checkout main
 ```
 
+#### 24. Crear nueva funcionalidad (feature):
+
+```
+git branch nombrefeature
+```
+
+#### 25. Moverse a nueva rama creada:
+
+```
+git switch nombrefeature
+```
+REALIZAR CAMBIOS Y COMMITEAR
+
+#### 26. Realizar Merge:
+
+```
+git merge main
+```
+
+#### 27. Revisar commits mergeados
+
+UTILIZAR ALIAS CREADO
+
+```
+git tree
+```
+
+
+
+
+
+
+
+
 
 
 
