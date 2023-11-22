@@ -4,7 +4,9 @@
 
 
 #### 1. Inicializar control de versiones GIT:
-    git init
+   ```bash
+git init
+```
 
 #### 2. Agregar archivos:
     git add
