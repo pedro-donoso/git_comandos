@@ -7,23 +7,31 @@
 ```
 git init
 ```
+
 #### 2. Establecer nombre de rama inicial y cambiar Nombre a rama principal del proyecto:
 
-``git config --global init.defaultBranch main
+```git config --global init.defaultBranch main
+```
 
+```
 git branch -m main
+```
 
-#### 2. Agregar todos los archivos:
-    
-```
-git add .
-```
 #### 3. Ver estado del Proyecto:
 
 ```
 git status
 ```
 
+#### 4. Agregar fichero o versionar todos los cambios:
+    
+```
+git add nombrearchivo.extension
+```
+
+```
+git add .
+```
 
 #### 3. Borrar add:
     git reset
