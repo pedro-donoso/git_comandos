@@ -41,22 +41,31 @@ git commit -m "Primer commit"
 
 #### 6. Revisar commit creado:
 
+COPIAR HASH (CÓDIGO ÚNICO DEL COMMIT)
+
 ```
 git log
 ```
 
 #### EDITAR ARCHIVO
 
-#### 7. Volver al estado anterior del fichero antes de editarlo :
+#### 7. Volver al estado anterior del fichero antes de editarlo o de un commit específico:
 
 ```
 git checkout nombrearchivo.extension
 ```
 
+ESCRIBIR HASH (IDENTIFICADOR ÚNICO) DEL COMMIT
+```
+git checkout 3e69287
+```
+
+
 #### 8. Volver  al fichero anterior commiteado:
 
+AGREGAR HASH COMMIT
 ```
-git reset
+git reset 3e69287
 ```
 
 #### INGRESAR EL FICHERO nombrearchivo.extension
@@ -89,6 +98,55 @@ git log --graph --decorate --all --oneline
 ```
 git config --global alias.nombrealias "log --graph --decorate --all --oneline"
 ```
+
+#### 14. Utilizar alias
+
+```
+git nombrealias
+```
+
+#### 15. Ignorar fichero
+
+CREAR ARCHIVO .gitignore EN LA RAÍZ DEL PROYECTO
+
+AGREGAR FICHEROS DENTRO DE ESTE ARCHIVO
+
+```
+**/.nombrearchivo.extension
+```
+
+EDITAR FICHEROS
+
+#### 16. Revisar diferencias entre ficheros commiteados y sin commitear.
+
+```
+git diff
+```
+#### 17. Moverse entre commits:
+
+COPIAR FINAL DEL HASH (CÓDIGO ÚNICO) DEL COMMIT DONDE QUEREMOS SITUARNOS
+
+```
+git checkout hash
+```
+
+#### 18. Revisar dónde apunta la cabecera (HEAD):
+
+```
+git log
+```
+
+#### 19. Resetar commits:
+
+```
+git reset 3e69287
+```
+
+
+
+
+
+
 
 
 
