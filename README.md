@@ -24,7 +24,7 @@ git branch -m main
 git status
 ```
 
-#### 4. Agregar fichero o versionar todos los cambios:
+#### 4. Añadir fichero o versionar todos los cambios:
     
 ```
 git add nombrearchivo.extension
@@ -33,6 +33,40 @@ git add nombrearchivo.extension
 ```
 git add .
 ```
+
+#### 5. Agregar commit con mensaje:
+```
+git commit -m "Primer commit"
+```
+
+#### 6. Revisar commit creado:
+
+```
+git log
+```
+
+#### EDITAR ARCHIVO
+
+#### 7. Volver al estado anterior del fichero antes de editarlo :
+
+```
+git checkout nombrearchivo.extension
+```
+
+#### 8. Volver  al fichero anterior commiteado:
+
+```
+git reset
+```
+
+#### INGRESAR EL FICHERO nombrearchivo.extension
+
+#### 9. Revisar todos los commits:
+
+```
+git log
+```
+
 
 #### 3. Borrar add:
     git reset
