@@ -186,6 +186,11 @@ git switch nombrefeature
 ```
 REALIZAR CAMBIOS Y COMMITEAR
 
+#### 26. Ver todas las ramas:
+```
+git branch
+```
+
 #### 26. Realizar Merge:
 
 ```
