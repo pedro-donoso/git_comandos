@@ -13,7 +13,7 @@ mkdir git_curso
 cd git_curso
 ```
 
-#### 3. Inicializar control de versiones GIT desde terminal vscode:
+#### 3. Inicializar control de versiones GIT desde terminal vscode y enlazar con repositorio en github:
 
 ```
 git init
