@@ -30,7 +30,24 @@ git init
 git status
 ```
 
-#### 5. Crear nueva rama develop:
+#### 5. Crear archivo index.html y agregar:
+
+```
+git add .
+```
+
+#### 6. Commitear cambios:
+
+```
+git commit -m "primer commit"
+```
+
+#### 7. Pushear cambios para publicar rama:
+
+
+
+
+#### 6. Crear nueva rama develop:
 
 ```git branch develop
 ```
