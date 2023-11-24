@@ -18,7 +18,7 @@ cd git_curso
 code
 ```
 
-#### 3. Inicializar control de versiones GIT desde terminal vscode:
+#### 4. Inicializar control de versiones GIT desde terminal vscode:
 
 ```
 git init
