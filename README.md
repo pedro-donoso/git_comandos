@@ -18,17 +18,15 @@ cd git_curso
 ```
 git init
 ```
-
-#### 4. Ver estado del Proyecto:
-
-```
-git status
-```
-
-#### 5. Crear archivo index.html y agregar:
+#### 4. Crear archivo index.html y agregar:
 
 ```
 git add .
+```
+#### 5. Ver estado del Proyecto:
+
+```
+git status
 ```
 
 #### 6. Commitear cambios:
