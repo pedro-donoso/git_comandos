@@ -12,6 +12,11 @@ mkdir git_curso
 ```
 cd git_curso
 ```
+#### 3. Abrir carpeta en vscode:
+
+```
+code
+```
 
 #### 3. Inicializar control de versiones GIT desde terminal vscode:
 
