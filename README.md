@@ -7,35 +7,25 @@
 ```
 mkdir git_curso
 ```
-#### 2. Crear archivo index.html en la carpeta creada desde terminal:
+#### 2. Ingresar a la carpeta creada desde terminal:
 
 ```
 cd git_curso
 ```
 
-```
-touch index.html
-```
-
-#### 3. Abrir archivo en vscode desde terminal:
-
-```
-code
-```
-
-#### 4. Inicializar control de versiones GIT desde terminal vscode:
+#### 3. Inicializar control de versiones GIT desde terminal vscode:
 
 ```
 git init
 ```
 
-#### 5. Ver estado del Proyecto:
+#### 4. Ver estado del Proyecto:
 
 ```
 git status
 ```
 
-#### 6. Crear nueva rama develop:
+#### 5. Crear nueva rama develop:
 
 ```git branch develop
 ```
