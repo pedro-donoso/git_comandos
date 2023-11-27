@@ -41,10 +41,10 @@ git commit -m "primer commit"
 git push
 ```
 
-
 #### 6. Crear nueva rama develop:
 
-```git branch develop
+```
+git branch develop
 ```
 
 #### 7. Cambiar a nueva rama creada:
