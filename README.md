@@ -54,7 +54,7 @@ git checkout develop
 ```
 
 
-#### 6. Añadir fichero o versionar todos los cambios:
+#### 8. Añadir un fichero o versionar todos los cambios:
     
 ```
 git add nombrearchivo.extension
@@ -64,9 +64,9 @@ git add nombrearchivo.extension
 git add .
 ```
 
-#### 7. EDITAR ARCHIVO: Realizar cambios en el fichero (sin commitear)
+#### 9. EDITAR ARCHIVO: Realizar cambios en el fichero (sin commitear)
 
-#### 8. Volver al estado anterior del fichero antes de editarlo:
+#### 10. Volver al estado anterior del fichero antes de editarlo:
 
 ```
 git checkout nombrearchivo.extension
@@ -77,14 +77,13 @@ ESCRIBIR HASH (IDENTIFICADOR ÚNICO) DEL COMMIT
 git checkout 3e69287
 ```
 
-
 #### 11. Traer cambios a develop:
 
 ```
 git checkout develop
 ```
 
-#### INGRESAR EL FICHERO nombrearchivo.extension
+#### CREAR UN EL FICHERO nombrearchivo.extension
 
 #### 12. Revisar todos los commits:
 
@@ -92,53 +91,53 @@ git checkout develop
 git log
 ```
 
-#### 10. Revisar todos los commits gráficamente:
+#### 13. Revisar todos los commits gráficamente:
 
 ```
 git log graph
 ```
-#### 11. Revisar cada commit en una línea:
+#### 14. Revisar cada commit en una línea:
 
 ```
 git log --oneline
 ```
 
-#### 12. Decorar commits:
+#### 15. Decorar commits:
 
 ```
 git log --graph --decorate --all --oneline
 ```
 
-#### 13. Crear alias, entre comillas agregar decoración
+#### 16. Crear alias, entre comillas agregar decoración
 
 ```
 git config --global alias.nombrealias "log --graph --decorate --all --oneline"
 ```
 
-#### 14. Utilizar alias
+#### 17. Utilizar alias
 
 ```
 git nombrealias
 ```
 
-#### 15. Ignorar fichero
+#### 18. Ignorar fichero
 
-CREAR ARCHIVO .gitignore EN LA RAÍZ DEL PROYECTO
+#### CREAR ARCHIVO .gitignore EN LA RAÍZ DEL PROYECTO
 
-AGREGAR FICHEROS DENTRO DE ESTE ARCHIVO
+#### AGREGAR FICHEROS DENTRO DE ESTE ARCHIVO
 
 ```
 **/.nombrearchivo.extension
 ```
 
-EDITAR FICHEROS
+#### EDITAR FICHEROS
 
-#### 16. Revisar diferencias entre ficheros commiteados y sin commitear.
+#### 19. Revisar diferencias entre ficheros commiteados y sin commitear.
 
 ```
 git diff
 ```
-#### 17. Moverse entre commits:
+#### 20. Moverse entre commits:
 
 COPIAR FINAL DEL HASH (CÓDIGO ÚNICO) DEL COMMIT DONDE QUEREMOS SITUARNOS
 
@@ -146,30 +145,30 @@ COPIAR FINAL DEL HASH (CÓDIGO ÚNICO) DEL COMMIT DONDE QUEREMOS SITUARNOS
 git checkout hash
 ```
 
-#### 18. Revisar dónde apunta la cabecera (HEAD):
+#### 21. Revisar dónde apunta la cabecera (HEAD):
 
 ```
 git log
 ```
 
-#### 19. Resetar commits:
+#### 22. Resetar commits(UTILIZAR HASH DEL COMMIT):
 
-RESET FUNCIONA PARA COMMITS ANTES O DESPÚES DE LA CABECERA (HEAD)
+#### RESET FUNCIONA PARA COMMITS ANTES O DESPÚES DE LA CABECERA (HEAD)
 ```
 git reset 3e69287
 ```
 
-#### 20. Recuperar commits borrados
+#### 23. Recuperar commits borrados
 
-MUESTRA HISTORIAL COMPLETO DE COMMITS
+#### MUESTRA HISTORIAL COMPLETO DE COMMITS
 
 ```
 git reflog
 ```
 
-GIT RESET (HASH) PARA POSICIONAR CABECERA (HEAD)
+#### GIT RESET (HASH) PARA POSICIONAR CABECERA (HEAD)
 
-#### 21. Etiquetar commit:
+#### 24. Etiquetar commit:
 
 agregar nombre al commit puntual
 
@@ -177,43 +176,43 @@ agregar nombre al commit puntual
 git tag nombretag
 ```
 
-#### 22. Mover cabecera (HEAD) entre Tags:
+#### 25. Mover cabecera (HEAD) entre Tags:
 
 ```
 git checkout tags/nombretag
 ```
 
-#### 23. Mover cabecera (HEAD) a la ubicación del main:
+#### 26. Mover cabecera (HEAD) a la ubicación del main:
 
 ```
 git checkout main
 ```
 
-#### 24. Crear nueva funcionalidad (feature):
+#### 27. Crear nueva funcionalidad (feature):
 
 ```
 git branch nombrefeature
 ```
 
-#### 25. Moverse a nueva rama creada:
+#### 28. Moverse a nueva rama creada:
 
 ```
 git switch nombrefeature
 ```
-REALIZAR CAMBIOS Y COMMITEAR
+#### REALIZAR CAMBIOS Y COMMITEAR
 
-#### 26. Ver todas las ramas:
+#### 29. Ver todas las ramas:
 ```
 git branch
 ```
 
-#### 26. Realizar Merge:
+#### 30. Realizar Merge:
 
 ```
 git merge main
 ```
 
-#### 27. Revisar commits mergeados
+#### 31. Revisar commits mergeados
 
 UTILIZAR ALIAS CREADO
 
