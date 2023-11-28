@@ -217,10 +217,14 @@ git switch nombrefeature
 git branch
 ```
 
-#### 30. Realizar Merge:
+#### 30. Traer cambios a rama principal(main):
 
 ```
-git merge main
+git switch main
+```
+
+```
+git merge nombrerama (estando en main)
 ```
 
 #### 31. Revisar commits mergeados
