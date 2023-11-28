@@ -263,6 +263,9 @@ git checkout fichero.extension
 git fetch
 ```
 
+```
+git log
+```
 
 
 
