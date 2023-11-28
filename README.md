@@ -142,6 +142,12 @@ git nombrealias
 ```
 git diff
 ```
+#### Revisar cambios en stage
+
+```
+git diff --staged
+```
+
 #### 20. Moverse entre commits:
 
 COPIAR FINAL DEL HASH (CÓDIGO ÚNICO) DEL COMMIT DONDE QUEREMOS SITUARNOS
