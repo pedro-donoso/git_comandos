@@ -26,7 +26,7 @@ git add .
 #### 5. Ver estado del Proyecto:
 
 ```
-git status
+git status -s
 ```
 
 #### 6. Commitear cambios:
