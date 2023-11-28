@@ -219,7 +219,7 @@ UTILIZAR ALIAS CREADO
 ```
 git tree
 ```
-#### 32. Guardar temporalmente
+#### 32. Guardar temporalmente (local)
 
 ```
 git stash
