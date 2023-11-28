@@ -257,15 +257,23 @@ git merge nombre_feature
 git checkout fichero.extension
 ```
 
-#### 39. Traer los commits que estan en local:
+#### 39. Se descarga sólo el historial de commits que estan en remoto:
 
 ```
 git fetch
 ```
 
+#### REVISAR LOS CAMBIOS PARA COMPARAR CON LOCAL
 ```
 git log
 ```
+
+#### 40. Descargar los cambios que están en remoto:
+
+```
+git pull
+```
+
 
 
 
