@@ -240,6 +240,25 @@ git stash pop
 ```
 git stash drop
 ```
+#### 36. Saber si tenemos conflictos entre ramas:
+
+```
+git diff
+```
+#### 37. Traer cambios a la rama main
+
+```
+git merge nombre_feature
+```
+
+#### 38. Deshacer cambios
+
+```
+git checkout fichero.extension
+```
+
+
+
 
 
 
