@@ -26,6 +26,11 @@ git add .
 #### 5. Ver estado del Proyecto:
 
 ```
+git status
+```
+#### Ver estado corto:
+
+```
 git status -s
 ```
 
