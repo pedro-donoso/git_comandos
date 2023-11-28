@@ -257,7 +257,11 @@ git merge nombre_feature
 git checkout fichero.extension
 ```
 
+#### 39. Traer los commits que estan en local:
 
+```
+git fetch
+```
 
 
 
