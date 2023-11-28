@@ -50,7 +50,7 @@ git branch develop
 #### 7. Cambiar a nueva rama creada:
 
 ```
-git checkout develop
+git switch develop
 ```
 
 
@@ -142,7 +142,7 @@ git diff
 COPIAR FINAL DEL HASH (CÓDIGO ÚNICO) DEL COMMIT DONDE QUEREMOS SITUARNOS
 
 ```
-git checkout hash
+git checkout 3e69287
 ```
 
 #### 21. Revisar dónde apunta la cabecera (HEAD):
