@@ -285,6 +285,12 @@ git log
 git pull
 ```
 
+#### 41. Revisar los cambios de los archivos:
+
+```
+cat nombrearchivo.extension
+```
+
 
 
 
