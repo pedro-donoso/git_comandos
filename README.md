@@ -80,7 +80,7 @@ git checkout 3e69287
 #### 11. Traer cambios a develop:
 
 ```
-git checkout develop
+git switch develop
 ```
 
 #### CREAR UN EL FICHERO nombrearchivo.extension
@@ -179,13 +179,13 @@ git tag nombretag
 #### 25. Mover cabecera (HEAD) entre Tags:
 
 ```
-git checkout tags/nombretag
+git switch tags/nombretag
 ```
 
 #### 26. Mover cabecera (HEAD) a la ubicación del main:
 
 ```
-git checkout main
+git switch main
 ```
 
 #### 27. Crear nueva funcionalidad (feature):
