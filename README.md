@@ -224,6 +224,22 @@ git tree
 ```
 git stash
 ```
+#### 33. Revisar lista de pendientes:
+
+```
+git stash list
+```
+
+#### 34. Traer cambios guardados temporalmente:
+
+```
+git stash pop
+```
+#### 35. Eliminar stash guardado:
+
+```
+git stash drop
+```
 
 
 
