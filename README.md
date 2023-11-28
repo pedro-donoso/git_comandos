@@ -38,7 +38,7 @@ git commit -m "primer commit"
 #### 7. Pushear cambios para publicar rama:
 
 ```
-git push
+git push origin main
 ```
 
 #### 6. Crear nueva rama develop:
