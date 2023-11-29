@@ -99,7 +99,7 @@ git log
 #### 13. Revisar todos los commits gráficamente:
 
 ```
-git log graph
+git log --graph
 ```
 #### 14. Revisar cada commit en una línea:
 
