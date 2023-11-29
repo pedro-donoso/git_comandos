@@ -250,6 +250,12 @@ git stash list
 ```
 git stash pop
 ```
+#### APLICAR CAMBIOS TEMPORALES
+
+```
+git stash apply
+```
+
 #### 35. Eliminar stash guardado:
 
 ```
