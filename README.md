@@ -217,7 +217,7 @@ git switch nombrefeature
 git branch
 ```
 
-#### 30. Traer cambios a rama principal(main):
+#### 30. Traer cambios a rama principal(Actualizar main):
 
 ```
 git switch main
@@ -301,7 +301,11 @@ git pull
 cat nombrearchivo.extension
 ```
 
+#### 42. Eliminar ramao feature:
 
+```
+git branch -d nombrerama
+```
 
 
 
